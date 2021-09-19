@@ -1,0 +1,165 @@
+body,html
+   {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: pink;
+    
+   }
+   .form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+.card-container.card {
+  max-width: 300px;
+  padding: 40px 40px;
+  height:400px;
+  
+}
+.card {
+  background-color: #000232;
+  /* just in case there no content*/
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 70px;
+  /* shadows and rounded borders */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.form-signin #email,
+.form-signin #pwd1 {
+    direction: ltr;
+    height: 40px;
+    font-size: 16px;
+    width:317px;
+    margin-left: -7px;
+   
+   
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+ 
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/*
+* Form styles
+*/
+.profile-name-card {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 0;
+  min-height: 1em;
+}
+.form-signin input[type=submit],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 40%;
+   height:40px;
+    display: block;
+    margin-bottom: 5px;
+    z-index: 1;
+    margin-left:174px;
+    border-radius: 5px;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.checkbox
+{
+    margin-top:-25px;
+    font-size:19px;
+   
+}
+.btn
+{
+  width: 78%;
+   margin-top:27px;
+    display: block;
+    margin-bottom: 5px;
+    z-index: 1;
+    background-color:cadetblue;
+  
+    border-radius: 5px;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+   #main
+   {
+     width:500px; 
+     height:400px;
+      margin-left:auto;
+      margin-right:auto;
+      
+        border-radius:5px; 
+        padding-left:10px;
+      margin-top:100px;
+      border-top:3px double #f1f1f1;
+      border-bottom:3px double #f1f1f1; 
+      padding-top:20px;
+      background-color:white;
+     
+   }
+   #main table
+   {
+     font-family:"Comic Sans MS", cursive;
+   } 
+  
+   
+  #main .tb
+  {
+    height:28px; 
+    width:230px;
+     border:1px solid #27a465; 
+     color:#27a465;
+      font-weight:bold; 
+      border-left:5px solid #f7f7f7; 
+      opacity:0.9;
+  }
+
+  
+   #main .btn
+   {
+    width:80px;
+     height:32px; 
+     outline:none; 
+      font-weight:bold;
+       border:0px solid #27a465;
+        text-shadow: 0px 0.5px 0.5px #fff;	
+    border-radius: 2px;
+     font-weight: 600;
+      color: #27a465;
+      letter-spacing: 1px;
+       font-size:14px;
+        -webkit-transition: 1s; 
+        -moz-transition: 1s;
+         transition: 1s;
+         margin-top:25px;
+   }
+  
+   #main .btn:hover
+   {
+    background-color:#27a465; 
+    outline:none; 
+     border-radius: 2px; 
+     color:#f1f1f1; 
+    
+     border:1px solid #f1f1f1;
+   }
+   
